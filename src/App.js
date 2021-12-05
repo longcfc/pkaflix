@@ -13,10 +13,13 @@ import Search from "./pages/Search/Search";
 import Category from "./pages/Category/Category";
 import DetailModal from "./components/DetailModal/DetailModal";
 import SplashAnimation from "./components/SplashAnimation/SplashAnimation";
-import PlayAnimation from "./components/PlayAnimation/PlayAnimation";
+//import PlayAnimation from "./components/PlayAnimation/PlayAnimation";
 import { selectCurrentUser } from './redux/auth/auth.selectors';
 import { selectSearchResults } from "./redux/search/search.selectors";
 import { checkUserSession } from "./redux/auth/auth.actions";
+import "../node_modules/video-react/dist/video-react.css";
+import { Player } from 'video-react';
+
 
 const App = () => {
 
@@ -51,7 +54,18 @@ const App = () => {
                     />
                     <Route
                         path="/play"
-                        component={PlayAnimation}
+                        render= {() =>{
+                            return (
+                                <Player
+                                playsInline
+                                //poster="/assets/poster.png"
+                                src="https://s3-us-west-2.amazonaws.com/converterpoint-22/encodings/d834ca01e41e31bdfaa2aa32973de76c.mp4"
+                                />
+                            );
+                        }
+                        
+                    }
+                        
                     />
                     <Route
                         path="/search"

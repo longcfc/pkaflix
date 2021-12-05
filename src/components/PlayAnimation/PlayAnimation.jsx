@@ -23,7 +23,7 @@ const PlayAnimation = () => {
 		<div className='PlayAnimation__wrp'>
 			<audio ref={soundRef} src={TADUM_SOUND_URL} />
 			<span className="PlayAnimation__text">
-				FAKEFLIX
+				PIKAFLIX
 			</span>
 		</div>
 	)
