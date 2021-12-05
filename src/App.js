@@ -59,7 +59,7 @@ const App = () => {
                                 <Player
                                 playsInline
                                 //poster="/assets/poster.png"
-                                src="https://s3-us-west-2.amazonaws.com/converterpoint-22/encodings/d834ca01e41e31bdfaa2aa32973de76c.mp4"
+                                src="https://s3-us-west-2.amazonaws.com/converterpoint-22/encodings/dc4d08765282e932dcd7722dadef47ce.mp4"
                                 />
                             );
                         }
