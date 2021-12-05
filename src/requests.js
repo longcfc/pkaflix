@@ -2,13 +2,13 @@ import { getOneMonthAgoReleaseDate } from "./utils";
 
 export const GITHUB_BASE_URL = "https://github.com/longcfc/pkaflix";
 export const GITHUB_AVATAR_URL = "https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/240404943_2746514918973631_606230429522353047_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NohyCYjNUsYAX9dTYvF&_nc_ht=scontent.fhan2-4.fna&oh=8818db5ec3047b3edda6e53f8774e53c&oe=61AE3CC7";
-const GITHUB_ASSETS_BASE_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix";
+//const GITHUB_ASSETS_BASE_URL = "https://cdn.jsdelivr.net/gh/Th3Wall/assets-cdn/Fakeflix";
 export const LANG = "en-US";
 export const REGION = "US";
 export const BASE_IMG_URL = "https://image.tmdb.org/t/p/original";
-export const FALLBACK_IMG_URL = `${GITHUB_ASSETS_BASE_URL}/Fakeflix_readme.png`;
-export const LOGO_URL = `https://i.ibb.co/F6vh9ZQ/Pika-Flix-n-n-en.png`;
-export const MOBILE_LOGO_URL = `${GITHUB_ASSETS_BASE_URL}/Fakeflix_favicon_192.png`;
+export const FALLBACK_IMG_URL = `https://i.ibb.co/LZNKPd7/Pika.png`;
+export const LOGO_URL = `https://i.ibb.co/K6sByc6/Pika-Flix-n-n-en.png`;
+export const MOBILE_LOGO_URL = `https://i.ibb.co/C7tdL4M/Pikaflix-favicon-192.png`;
 export const PROFILE_PIC_URL = `https://i.ibb.co/8YRN29F/Pikaflix-profilepic.png"`;
 export const SIGNIN_BGIMG_URL = `https://i.ibb.co/pxTMZ4z/Pikaflix-signin-bg.jpg`;
 export const TADUM_SOUND_URL = `https://media1.vocaroo.com/mp3/16xNj7vPvyUL`;
